@@ -1,0 +1,52 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<dom-module id="x-main">
+
+  <style>
+    :host {
+      display: block;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+  </style>
+
+  <template>
+
+    <h1>&lt;x-main&gt;</h1>
+
+    <p>
+      <content></content>
+    </p>
+
+    <button on-tap="doRemoval">remove</button>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'x-main',
+
+    ready: function () {
+      console.log(this, 'ready');
+    },
+
+    attached: function () {
+      console.log(this, 'attached');
+    },
+
+    detached: function () {
+      console.log(this, 'detached');
+    },
+
+    doRemoval: function () {
+      this.parentNode.removeChild(this);
+    }
+
+  });
+
+</script>
