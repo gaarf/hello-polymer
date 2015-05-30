@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "polymer": "~1.0.0",
-    "normalize.css": "~3.0.3"
+    "normalize.css": "~3.0.3",
+    "app-router": "~2.6.1"
   }
 }
