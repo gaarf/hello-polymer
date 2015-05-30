@@ -1,0 +1,48 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<dom-module id="my-foo">
+
+  <style>
+    :host {
+      display: block;
+    }
+
+    p {
+      color: orange;
+    }
+  </style>
+
+  <template>
+
+    <p>&lt;my-foo&gt;</p>
+    <button on-tap="doRemoval">remove foo</button>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'my-foo',
+
+    ready: function () {
+      console.log(this, 'ready');
+    },
+
+    attached: function () {
+      console.log(this, 'attached');
+    },
+
+    detached: function () {
+      console.log(this, 'detached');
+    },
+
+    doRemoval: function () {
+      this.parentNode.removeChild(this);
+    }
+
+  });
+
+</script>

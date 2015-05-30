@@ -1,4 +1,4 @@
-<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/polymer/polymer.html">
 
 <dom-module id="x-main">
 
@@ -13,26 +13,24 @@
 
   <template>
 
-    <h1>&lt;x-main&gt;</h1>
-
     <p>
       <content></content>
-      <a is="pushstate-anchor" href="/order/123">go to order</a>
     </p>
 
     <app-router mode="pushstate">
 
-      <app-route path="/home" import="../pages/home-page.html"></app-route>
+      <app-route path="/" 
+        template import="/assets/pages/home-page.html"
+      ></app-route>
 
-      <app-route path="/order/:orderId">
-        <template>
+      <app-route path="/order/:orderId"
+        template import="/assets/pages/order-page.html"
+      ></app-route>
 
-          your order id is <strong>{{orderId}}</strong>
+      <app-route path="*" 
+        redirect="/"
+      ></app-route>
 
-        </template>
-      </app-route>
-
-      <app-route path="*" redirect="/home"></app-route>
     </app-router>
 
   </template>
@@ -43,23 +41,7 @@
 
   Polymer({
 
-    is: 'x-main',
-
-    ready: function () {
-      console.log(this, 'ready');
-    },
-
-    attached: function () {
-      console.log(this, 'attached');
-    },
-
-    detached: function () {
-      console.log(this, 'detached');
-    },
-
-    doRemoval: function () {
-      this.parentNode.removeChild(this);
-    }
+    is: 'x-main'
 
   });
 

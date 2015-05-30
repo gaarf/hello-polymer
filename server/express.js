@@ -53,7 +53,6 @@ function makeApp () {
   ]);
 
   // serve bower_components
-  // maybe useless in prod with vulcanisation
   app.use('/bower_components', [
     httpStaticLogger,
     express.static(ROOT_PATH + '/bower_components', {
