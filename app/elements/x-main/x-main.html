@@ -17,9 +17,23 @@
 
     <p>
       <content></content>
+      <a is="pushstate-anchor" href="/order/123">go to order</a>
     </p>
 
-    <button on-tap="doRemoval">remove</button>
+    <app-router mode="pushstate">
+
+      <app-route path="/home" import="../pages/home-page.html"></app-route>
+
+      <app-route path="/order/:orderId">
+        <template>
+
+          your order id is <strong>{{orderId}}</strong>
+
+        </template>
+      </app-route>
+
+      <app-route path="*" redirect="/home"></app-route>
+    </app-router>
 
   </template>
 

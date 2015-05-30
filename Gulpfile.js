@@ -49,7 +49,9 @@ gulp.task('css:app', function() {
  */
 gulp.task('js:lib', function() {
   return gulp.src([
-      './bower_components/webcomponentsjs/webcomponents-lite.js'
+      './bower_components/webcomponentsjs/webcomponents-lite.js',
+      './bower_components/app-router/src/app-router.js',
+      './bower_components/pushstate-anchor/src/pushstate-anchor.js'
     ])
     .pipe(plug.concat('lib.js'))
     .pipe(gulp.dest('./dist/assets/bundle'));
@@ -68,7 +70,7 @@ gulp.task('js:app', function() {
   return gulp.src([
       './app/main.js',
       './app/**/*.js',
-      '!./app/components/**/*',
+      '!./app/elements/**/*',
       '!./app/**/*-test.js'
     ])
     .pipe(plug.wrapper({
@@ -98,9 +100,9 @@ gulp.task('img', function() {
   Markup
  */
 
-gulp.task('html:components', function() {
-  return gulp.src('./app/components/**/*')
-      .pipe(gulp.dest('./dist/assets/components'));
+gulp.task('html:elements', function() {
+  return gulp.src('./app/elements/**/*')
+      .pipe(gulp.dest('./dist/assets/elements'));
 });
 
 gulp.task('html:main', function() {
@@ -108,7 +110,7 @@ gulp.task('html:main', function() {
       .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('html', ['html:main', 'html:components']);
+gulp.task('html', ['html:main', 'html:elements']);
 
 
 
@@ -185,7 +187,7 @@ gulp.task('rev:replace', ['html:main', 'rev:manifest'], function() {
   for (var f in rev) {
     if(f==='x-main.html') {
       out = out.pipe(plug.replace(
-          '/assets/components/x-main/'+f, 
+          '/assets/elements/x-main/'+f, 
           p+rev[f]
         ));
     }
@@ -222,9 +224,10 @@ gulp.task('watch', ['build'], function() {
   plug.livereload.listen();
 
   gulp.watch(['./dist/**/*']).on('change', plug.livereload.changed);
-  gulp.watch(['./app/components/**/*'], ['html:components']);
-  gulp.watch(['./app/**/*.js', '!./app/components/**/*', '!./app/**/*-test.js'], ['js:app']);
-  gulp.watch(['./app/**/*.{less,css}', '!./app/components/**/*'], ['css:app']);
+  gulp.watch(['./app/*.html'], ['html:main']);
+  gulp.watch(['./app/elements/**/*'], ['html:elements']);
+  gulp.watch(['./app/**/*.js', '!./app/elements/**/*', '!./app/**/*-test.js'], ['js:app']);
+  gulp.watch(['./app/**/*.{less,css}', '!./app/elements/**/*'], ['css:app']);
   gulp.watch(['./app/styles/img/**/*'], ['img']);
 
 });
