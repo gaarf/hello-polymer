@@ -16,8 +16,10 @@ main {
 
 main > app-router > app-route {
   display: block;
-}
 
-main > app-router > app-route[path="/"] {
-  background-color: orange;
+  &[active][path="/"] {
+    background-color: orange;
+    padding: 10px;
+  }
+
 }
