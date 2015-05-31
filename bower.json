@@ -5,6 +5,7 @@
     "polymer": "~1.0.0",
     "normalize.css": "~3.0.3",
     "app-router": "~2.6.1",
-    "pushstate-anchor": "~0.3.0"
+    "pushstate-anchor": "~0.3.0",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.4"
   }
 }

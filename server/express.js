@@ -41,12 +41,10 @@ function makeApp () {
   app.use(bodyParser.json());
 
 
-  // serve static assets
+  // serve own static assets
   app.use('/assets', [
     httpStaticLogger,
-    express.static(DIST_PATH + '/assets', {
-      index: false
-    }),
+    express.static(DIST_PATH + '/assets'),
     function(req, res) {
       finalhandler(req, res)(false); // 404
     }
@@ -55,9 +53,7 @@ function makeApp () {
   // serve bower_components
   app.use('/bower_components', [
     httpStaticLogger,
-    express.static(ROOT_PATH + '/bower_components', {
-      index: false
-    }),
+    express.static(ROOT_PATH + '/bower_components'),
     function(req, res) {
       finalhandler(req, res)(false); // 404
     }
