@@ -4,18 +4,32 @@
 
   <style>
     :host {
-      display: block;
+      display: inline-block;
+      border: 1px dotted orange;
+      padding: 4px;
     }
 
     p {
-      color: orange;
+      color: green;
+    }
+
+    ul, li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
     }
   </style>
 
   <template>
 
-    <p>&lt;my-foo&gt;</p>
-    <button on-tap="doRemoval">remove foo</button>
+    <button on-tap="incrementCount">increment <span>{{count}}</span></button>
+    <button on-tap="doRemoval">remove self</button>
+
+    <ul>
+      <template is="dom-repeat" items="{{items}}">
+        <li>{{item}}</li>
+      </template>
+    </ul>
 
   </template>
 
@@ -26,6 +40,25 @@
   Polymer({
 
     is: 'my-foo',
+
+    properties: {
+      count: {
+        type: Number,
+        value: 1
+      },
+      items: {
+        type: Array,
+        computed: 'computeItems(count)'
+      }
+    },
+
+    computeItems: function (count) {
+      var out = [];
+      for (var i = 0; i < count; i++) {
+        out.push('foo #'+i);
+      };
+      return out;
+    },
 
     ready: function () {
       console.log(this, 'ready');
@@ -39,8 +72,12 @@
       console.log(this, 'detached');
     },
 
+    incrementCount: function () {
+      this.count++;
+    },
+
     doRemoval: function () {
-      this.parentNode.removeChild(this);
+      Polymer.dom(this.parentNode).removeChild(this);
     }
 
   });

@@ -17,9 +17,29 @@
 </head>
 <body>
 
-    <x-main>
-      I can haz <em>Web Components</em>
-    </x-main>
+    <h1>Web Components FTW</h1>
+
+    <main>
+      <app-router mode="pushstate">
+
+        <app-route path="/" 
+          import="/assets/pages/home-page.html" template
+        ></app-route>
+
+        <app-route path="/order"
+          import="/assets/pages/order-page.html"
+        ></app-route>
+
+        <app-route path="/order/:orderId"
+          import="/assets/pages/order-page.html"
+        ></app-route>
+
+        <app-route path="*" 
+          redirect="/"
+        ></app-route>
+
+      </app-router>
+    </main>
 
     <script type="text/javascript" src="/assets/bundle/app.js"></script>
 

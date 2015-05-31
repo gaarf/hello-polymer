@@ -1,10 +1,31 @@
-<link rel="import" href="../elements/my-foo/my-foo.html">
+<link rel="import" href="/bower_components/polymer/polymer.html">
 
-<template>
+<dom-module id="order-page">
+  <template>
 
-  <div>your order <strong>{{orderId}}</strong></div>
-  <a is="pushstate-anchor" href="/">go home</a>
+    <p>
+      <a is="pushstate-anchor" href="/order/123" hidden$="{{orderId}}">
+        go to #123
+      </a>
 
-  <my-foo>foo</my-foo>
+      <template is="dom-if" if="{{orderId}}">
+        order is #<strong>{{orderId}}</strong>
+      </template>
+    </p>
 
-</template>
+    <hr>
+    <a is="pushstate-anchor" href="/">go home!!!</a>
+
+  </template>
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'order-page'
+
+
+  });
+
+</script>
