@@ -14,43 +14,40 @@
     <script type="text/javascript" src="/assets/bundle/lib.js"></script>
 </head>
 <body>
+  <div id="container">
 
-  <header>
-    <h1>Web Components FTW</h1>
-  </header>
-  <main>
-    <app-router mode="pushstate">
+    <header>
+      <h1>Hello World</h1>
+      <hr>
+    </header>
+    <main>
+      <app-router mode="pushstate">
 
-      <app-route path="/" 
-        import="/assets/pages/home.html" template
-      ></app-route>
+        <app-route path="/" 
+          import="/assets/pages/home.html" template
+        ></app-route>
 
-      <app-route path="/order"
-        import="/assets/pages/order-page.html"
-      ></app-route>
+        <app-route path="/order"
+          import="/assets/pages/order-page.html"
+        ></app-route>
 
-      <app-route path="/order/:orderId"
-        import="/assets/pages/order-page.html"
-      ></app-route>
+        <app-route path="/order/:orderId"
+          import="/assets/pages/order-page.html"
+        ></app-route>
 
-      <app-route path="*" 
-        redirect="/"
-      ></app-route>
+        <app-route path="*" 
+          redirect="/"
+        ></app-route>
 
-    </app-router>
-  </main>
-  <footer>
-    <hr>
-    yay
-  </footer>
+      </app-router>
+    </main>
+    <footer>
+      <hr>
+      <small>made with web components</small>
+    </footer>
 
+  </div>
   <script type="text/javascript" src="/assets/bundle/app.js"></script>
 
-  <script type="text/javascript">
-    if(location.host==='localhost:8080') {
-      document.write('<script src="http://localhost'
-        + ':35729/livereload.js"></' + 'script>');
-    }
-  </script>
 </body>
 </html>

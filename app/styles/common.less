@@ -4,6 +4,20 @@ html {
   min-height: 100%;
 }
 
-body {
+header, footer {
   text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main > app-router > app-route {
+  display: block;
+}
+
+main > app-router > app-route[path="/"] {
+  background-color: orange;
 }

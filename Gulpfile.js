@@ -115,10 +115,13 @@ gulp.task('html:main', function() {
       .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('html', ['html:main', 'html:pages', 'html:elements']);
-
-
-
+gulp.task('html:main:livereload', function() {
+  return gulp.src('./app/*.html')
+      .pipe(plug.replace('</body>', '<script '+
+        'src="http://localhost:35729/livereload.js">'+
+        '</script></body>'))
+      .pipe(gulp.dest('./dist'));
+});
 
 
 
@@ -160,10 +163,6 @@ gulp.task('minify:css', ['css'], function() {
     .pipe(gulp.dest('./dist/assets/bundle'));
 });
 
-gulp.task('minify', ['minify:js', 'minify:css']);
-
-
-
 
 /*
   rev'd assets
@@ -193,27 +192,25 @@ gulp.task('rev:replace', ['html:main', 'rev:manifest'], function() {
 /*
   alias tasks
  */
-gulp.task('lib', ['js:lib', 'css:lib']);
-gulp.task('app', ['js:app', 'css:app']);
 gulp.task('js', ['js:lib', 'js:app']);
 gulp.task('css', ['css:lib', 'css:app']);
-gulp.task('style', ['css']);
-
-gulp.task('build', ['js', 'css', 'img', 'html']);
+gulp.task('minify', ['minify:js', 'minify:css']);
+gulp.task('build:assets', ['js', 'css', 'img', 'html:pages', 'html:elements']);
+gulp.task('build:livereload', ['build:assets', 'html:main:livereload']);
+gulp.task('build', ['build:assets', 'html:main']);
 gulp.task('distribute', ['build', 'rev:replace']);
 
 gulp.task('default', ['lint', 'build']);
 
 
-
 /*
   watch
  */
-gulp.task('watch', ['build'], function() {
+gulp.task('watch', ['build:livereload'], function() {
   plug.livereload.listen();
 
   gulp.watch(['./dist/**/*']).on('change', plug.livereload.changed);
-  gulp.watch(['./app/*.html'], ['html:main']);
+  gulp.watch(['./app/*.html'], ['html:main:livereload']);
   gulp.watch(['./app/pages/**/*.html'], ['html:pages']);
   gulp.watch(['./app/elements/**/*'], ['html:elements']);
   gulp.watch(['./app/**/*.js', '!./app/elements/**/*', '!./app/**/*-test.js'], ['js:app']);
