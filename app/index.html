@@ -12,18 +12,49 @@
     <link rel="stylesheet" type="text/css" href="/assets/bundle/app.css">
 
     <script type="text/javascript" src="/assets/bundle/lib.js"></script>
+
+    <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
     <link rel="import" href="/bower_components/paper-styles/paper-styles-classes.html">
+    <link rel="import" href="/bower_components/paper-drawer-panel/paper-drawer-panel.html">
+    <link rel="import" href="/bower_components/paper-header-panel/paper-header-panel.html">
+    <link rel="import" href="/bower_components/paper-toolbar/paper-toolbar.html">
+    <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
 
+    <style type="text/css" is="custom-style">
+      :root {
+        --paper-toolbar-background: var(--google-grey-100);
+        --paper-toolbar-color: var(--google-grey-700);
+      }
+    </style>
+
+    </style>
 </head>
-<body>
-  <div class="layout vertical-reverse">
+<body unresolved>
 
-    <header class="flex paper-font-title">
-      <h1>Hello World</h1>
-    </header>
+  <paper-drawer-panel>
 
-    <main class="flex-auto paper-font-body1">
-      <app-router mode="pushstate">
+    <paper-header-panel drawer>
+      <paper-toolbar>
+        <div>Application</div>
+      </paper-toolbar>
+      <div class="padded">
+        <p class="paper-font-body1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </paper-header-panel>
+
+    <paper-header-panel main>
+
+      <paper-toolbar>
+        <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+        <div title>Title</div>
+      </paper-toolbar>
+
+      <app-router mode="pushstate" class="padded">
 
         <app-route path="/" 
           import="/assets/pages/home.html" template
@@ -42,13 +73,11 @@
         ></app-route>
 
       </app-router>
-    </main>
 
-    <footer class="flex paper-font-caption">
-      <small>made with web components</small>
-    </footer>
+    </paper-header-panel>
 
-  </div>
+  </paper-drawer-panel>
+
   <script type="text/javascript" src="/assets/bundle/app.js"></script>
 
 </body>

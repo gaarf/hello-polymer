@@ -2,6 +2,9 @@
 <link rel="import" href="/bower_components/iron-range-behavior/iron-range-behavior.html">
 <link rel="import" href="/bower_components/paper-button/paper-button.html">
 
+<!--
+`<my-foo>` injects a healthy dose of awesome into your page.
+-->
 <dom-module id="my-foo">
 
   <style>
@@ -27,8 +30,8 @@
       list-style-type: none;
     }
     li {
-      float:left;
       background-color: yellow;
+      border: 1px dotted orange;
       font-size: 77%;
     }
   </style>
@@ -45,9 +48,9 @@
       <input type="range" value="{{value::change}}" min="{{min}}" max="{{max}}">
     </p>
 
-    <ul class="clearfix">
+    <ul class="layout horizontal">
       <template is="dom-repeat" items="{{items}}">
-        <li>{{item}}</li>
+        <li class="flex">{{item}}</li>
       </template>
     </ul>
 
@@ -79,12 +82,20 @@
     behaviors: [Polymer.IronRangeBehavior],
 
     properties: {
+      /** contains as many foos as the value of the range. */
       items: {
         type: Array,
         computed: 'computeItems(value)'
       }
     },
 
+    /**
+     * Applies awesomeness to `element`.
+     *
+     * @param {number} level The numeric level of awesomeness. A value
+     *     between `min` and `max`.
+     * @return {array} The cumulative awesomeness.
+     */
     computeItems: function (count) {
       var out = [],
           n = Polymer.dom(this.$$('content')).getDistributedNodes();
@@ -108,10 +119,16 @@
       console.log(this, 'detached');
     },
 
+    /**
+     * increment awesomeness by one
+     */
     incrementCount: function () {
       this.value++;
     },
 
+    /**
+     * commit suicide
+     */
     doRemoval: function () {
       Polymer.dom(this.parentNode).removeChild(this);
     }
