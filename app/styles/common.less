@@ -1,25 +1,13 @@
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-header, footer {
+body {
   text-align: center;
 }
 
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-main > app-router > app-route {
+.clearfix:after {
+  visibility: hidden;
   display: block;
-
-  &[active][path="/"] {
-    background-color: orange;
-    padding: 10px;
-  }
-
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
+

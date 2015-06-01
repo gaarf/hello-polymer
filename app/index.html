@@ -12,15 +12,17 @@
     <link rel="stylesheet" type="text/css" href="/assets/bundle/app.css">
 
     <script type="text/javascript" src="/assets/bundle/lib.js"></script>
+    <link rel="import" href="/bower_components/paper-styles/paper-styles-classes.html">
+
 </head>
 <body>
-  <div id="container">
+  <div class="layout vertical-reverse">
 
-    <header>
+    <header class="flex paper-font-title">
       <h1>Hello World</h1>
-      <hr>
     </header>
-    <main>
+
+    <main class="flex-auto paper-font-body1">
       <app-router mode="pushstate">
 
         <app-route path="/" 
@@ -41,8 +43,8 @@
 
       </app-router>
     </main>
-    <footer>
-      <hr>
+
+    <footer class="flex paper-font-caption">
       <small>made with web components</small>
     </footer>
 

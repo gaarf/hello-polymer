@@ -1,4 +1,6 @@
 <link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/iron-range-behavior/iron-range-behavior.html">
+<link rel="import" href="/bower_components/paper-button/paper-button.html">
 
 <dom-module id="my-foo">
 
@@ -9,8 +11,14 @@
       padding: 4px;
     }
 
-    p {
+    h6 {
       color: green;
+      margin: 0;
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
     }
 
     ul, li {
@@ -18,20 +26,46 @@
       padding: 0;
       list-style-type: none;
     }
+    li {
+      float:left;
+      background-color: yellow;
+      font-size: 77%;
+    }
   </style>
 
   <template>
 
-    <button on-tap="incrementCount">increment <span>{{count}}</span></button>
-    <button on-tap="doRemoval">remove self</button>
+    <h6>
+      this is a &lt;my-foo&gt; element
+    </h6>
 
-    <ul>
+    <content hidden></content>
+
+    <p>
+      <input type="range" value="{{value::change}}" min="{{min}}" max="{{max}}">
+    </p>
+
+    <ul class="clearfix">
       <template is="dom-repeat" items="{{items}}">
         <li>{{item}}</li>
       </template>
     </ul>
 
-    <a href="/assets/elements/my-foo/index.html">read about foo</a>
+    <p>
+      <em>{{value}}</em> = <span>{{ratio}}</span>%
+    </p>
+
+    <p>
+      <paper-button raised on-tap="incrementCount">
+        increment
+      </paper-button>
+
+      <paper-button raised on-tap="doRemoval">
+        remove &lt;my-foo&gt;
+      </paper-button>
+      <a href="/assets/elements/my-foo/index.html">read about my-foo</a>
+    </p>
+
   </template>
 
 </dom-module>
@@ -42,27 +76,28 @@
 
     is: 'my-foo',
 
+    behaviors: [Polymer.IronRangeBehavior],
+
     properties: {
-      count: {
-        type: Number,
-        value: 1
-      },
       items: {
         type: Array,
-        computed: 'computeItems(count)'
+        computed: 'computeItems(value)'
       }
     },
 
     computeItems: function (count) {
-      var out = [];
+      var out = [],
+          n = Polymer.dom(this.$$('content')).getDistributedNodes();
       for (var i = 0; i < count; i++) {
-        out.push('foo #'+i);
+        out.push( n[i%n.length].innerText || 'foo' );
       };
       return out;
     },
 
     ready: function () {
       console.log(this, 'ready');
+      this.value = 1;
+      this.max = 20;
     },
 
     attached: function () {
@@ -74,7 +109,7 @@
     },
 
     incrementCount: function () {
-      this.count++;
+      this.value++;
     },
 
     doRemoval: function () {
