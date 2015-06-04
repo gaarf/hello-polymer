@@ -11,7 +11,7 @@ Global dependencies:
 
 Local dependencies:
 
-* `npm install`
+* `npm install && bower install`
 
 ### Running the server
 
