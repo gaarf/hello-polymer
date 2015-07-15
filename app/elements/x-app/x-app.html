@@ -38,7 +38,11 @@ top-level element for this app
       display: block;
       background-color: var(--paper-blue-200);
       padding: 20px;
+      margin-bottom: 20px;
+    }
+    header h1 {
       @apply(--paper-font-headline);
+      margin: 0;     
     }
 
     main.container {
@@ -69,7 +73,12 @@ top-level element for this app
   <template>
 
 
-    <header>[[routeTitle]]</header>
+    <header>
+      <h1>
+        <span>[[routeTitle]]</span>
+<!--         <small>[[activePath]]</small> -->
+      </h1>
+    </header>
 
     <main class="container">
 
@@ -85,6 +94,11 @@ top-level element for this app
                  import="/assets/pages/test-page.html"
         ></app-route>
 
+        <app-route path="/demo/:tagArg"
+             data-title="Demo Page"
+                 import="/assets/pages/demo-page.html"
+        ></app-route>
+
         <app-route path="*"
                redirect="/"
         ></app-route>
@@ -94,7 +108,8 @@ top-level element for this app
     </main>
 
     <footer>
-      built with <a href="https://www.polymer-project.org/" target="_blank">Polymer</a>
+      <span>[[buildInfo.pkg.name]]</span>
+      v<strong>[[buildInfo.pkg.v]]</strong>
     </footer>
 
 
@@ -121,7 +136,14 @@ top-level element for this app
 
     onRouteChanged: function (e, detail) {
       this.set('activePath', detail.path);
-      this.set('routeTitle', detail.route.getAttribute('data-title'));
+
+      var route = detail.route,
+          page = route.firstChild;
+
+      this.set('routeTitle', 
+        page.get('routeTitle') ||
+        route.getAttribute('data-title')
+      );
 
       window.scrollTop = 0;
     },

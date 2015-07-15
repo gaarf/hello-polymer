@@ -1,0 +1,33 @@
+<script>
+
+  Polymer({
+
+    is: 'demo-page',
+
+    properties: {
+
+      tagArg: String,
+
+      routeTitle: {
+        type: String,
+        computed: '_computeRouteTitle(tagArg)'
+      }
+    },
+
+    _computeRouteTitle: function (tagArg) {
+      return '<'+tagArg+'> Demo';
+    },
+
+
+    attached: function () {
+      var tagArg = this.get('tagArg');
+      this.innerHTML = '<'+tagArg+'></'+tagArg+'>';
+    }
+
+  });
+
+</script>
+
+
+
+

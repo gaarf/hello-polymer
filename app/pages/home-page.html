@@ -11,9 +11,11 @@
 
 
     <ul>
-      <li>
-        <a is="pushstate-anchor" href="/test">test page</a>
-      </li>
+      <template is="dom-repeat" items="[[interestingElements]]">
+        <li>
+          <a is="pushstate-anchor" href$="[[_mkUrl(item)]]">[[item.is]]</a>
+        </li>
+      </template>
     </ul>
 
 
@@ -27,7 +29,22 @@
     is: 'home-page',
 
     properties: {
-      pkgVersion: String
+      pkgVersion: String,
+
+      interestingElements: {
+        type: Array,
+        value: function () {
+          return Polymer.telemetry.registrations.filter(function(it) {
+            return !it.is.match(/^(paper|iron|dom|x)\-/)
+                && !it.is.match(/\-(animation|page)$/)
+                && ['custom-style', 'array-selector'].indexOf(it.is)==-1;
+          });
+        }
+      }
+    },
+
+    _mkUrl: function (it) {
+      return '/demo/'+it.is;
     }
 
   });
