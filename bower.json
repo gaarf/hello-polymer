@@ -1,5 +1,5 @@
 {
-  "name": "polymer-carousel",
+  "name": "qomponents",
   "private": true,
   "dependencies": {
     "polymer": "^1.0.5",

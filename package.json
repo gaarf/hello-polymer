@@ -1,7 +1,7 @@
 {
-  "name": "polymer-carousel",
+  "name": "qomponents",
   "version": "0.0.1",
-  "description": "yet another webapp",
+  "description": "a qollection of web qomponents",
   "scripts": {
     "start": "node ./server.js",
     "prebuild": "npm install && ./node_modules/bower/bin/bower update --config.interactive=false",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaarf/polymer-carousel"
+    "url": "https://github.com/quantifind/qomponents"
   },
   "devDependencies": {
     "bower": "^1.3.10",
