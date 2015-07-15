@@ -1,0 +1,76 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/paper-material/paper-material.html">
+
+<!--
+`<lorem-ipsum>` generates boilerplate.
+-->
+<dom-module id="lorem-ipsum">
+
+  <style>
+    :host {
+      display: block;
+    }
+
+    p {
+      padding:1em;
+      font-size: 10px;
+    }
+  </style>
+
+  <template>
+    <h6>boilerplate*<span>{{count}}</span></h6>
+    <template is="dom-repeat" items="{{lorem}}">
+      <paper-material elevation="{{item}}">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </paper-material>
+    </template>
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'lorem-ipsum',
+
+    listeners: {
+      'tap': 'incrementCount'
+    },
+
+    properties: {
+      count: {
+        type: Number,
+        reflectToAttribute: true,
+        value: 2
+      },
+      lorem: {
+        type: Array,
+        computed: '_computeArray(count)'
+      }
+    },
+
+    _computeArray: function (count) {
+      var out = [];
+      for (var i = 0; i < count; i++) {
+        out.push((i%5)+1);
+      };
+      return out;
+    },
+
+
+    /**
+     * increment awesomeness by one
+     */
+    incrementCount: function () {
+      this.count++;
+    }
+
+  });
+
+</script>

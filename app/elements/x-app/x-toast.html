@@ -1,0 +1,65 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<!--
+Event interface to app-level instance of `<paper-toast>`
+-->
+<dom-module id="x-toast">
+  <style>
+    :host {
+      display: none;
+    }
+  </style>
+  <template>
+    <content id="content"></content>
+  </template>
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'x-toast',
+
+    properties: {
+      /**
+       * The duration in milliseconds to show the toast.
+       */
+      duration: {
+        type: Number,
+        value: 5000
+      },
+
+
+      /**
+       * The text to display in the toast.
+       */
+      text: {
+        type: String,
+        value: ""
+      },
+
+      /**
+       * A path to go to after showing the toast
+       */
+      andGo: {
+        type: String,
+        value: ""
+      }
+    },
+
+    hide: function () {
+      this.fire('x-toast:hide');
+    },
+
+    show: function () {
+      this.fire('x-toast:show', {
+        text: this.get('text'),
+        duration: this.get('duration'),
+        andGo: this.get('andGo'),
+        content: Polymer.dom(this.$.content).getDistributedNodes()
+      });
+    }
+
+  });
+
+</script>

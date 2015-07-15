@@ -1,0 +1,11 @@
+{
+  "name": "lorem-ipsum",
+  "private": true,
+  "main": [
+    "lorem-ipsum.html"
+  ],
+  "dependencies": {
+    "polymer": "^1.0.5",
+    "paper-material": "PolymerElements/paper-material"
+  }
+}

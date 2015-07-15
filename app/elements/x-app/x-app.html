@@ -1,0 +1,161 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<link rel="import" href="/bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="/bower_components/paper-styles/paper-styles.html">
+<link rel="import" href="/bower_components/paper-toast/paper-toast.html">
+
+<!--
+top-level element for this app
+-->
+<dom-module id="x-app">
+  <style>
+    :root {
+      --user-select-none: {
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
+      };
+    }
+
+    ::content #toast a {
+      color: var(--paper-blue-a200);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    ::content #toast [icon] {
+      margin-right: 1em;
+    }
+    ::content #toast.warning [icon] {
+      color: var(--paper-yellow-a700);
+    }
+    ::content #toast.danger [icon] {
+      color: var(--paper-red-a200);
+    }
+
+    header {
+      display: block;
+      background-color: var(--paper-blue-200);
+      padding: 20px;
+      @apply(--paper-font-headline);
+    }
+
+    main.container {
+      @apply(--paper-font-body1);
+      padding: 0 20px;
+      min-height: calc(100vh - 145px);
+    }
+
+    footer {
+      @apply(--paper-font-caption);
+      color: var(--paper-blue-a100);
+
+      margin-top: 20px;
+      border-top: 1px dotted var(--paper-blue-100);
+      padding: 0 20px 8px;
+      text-align: right;
+    }
+    footer a {
+      color: var(--paper-blue-a200);
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+
+  <template>
+
+
+    <header>[[routeTitle]]</header>
+
+    <main class="container">
+
+      <app-router mode="pushstate" on-activate-route-end="onRouteChanged">
+
+        <app-route path="/"
+             data-title="Home"
+                 import="/assets/pages/home-page.html"
+        ></app-route>
+
+        <app-route path="/test"
+             data-title="Test Page"
+                 import="/assets/pages/test-page.html"
+        ></app-route>
+
+        <app-route path="*"
+               redirect="/"
+        ></app-route>
+
+      </app-router>
+
+    </main>
+
+    <footer>
+      <strong>&copy; 2015 <a href="http://quantifind.com/" target="_blank">Quantifind</a></strong>
+      | built with <a href="https://www.polymer-project.org/" target="_blank">Polymer</a>
+    </footer>
+
+
+    <paper-toast id="toast"></paper-toast>
+
+    <x-meta write key="pkgVersion"
+      data-value="[[buildInfo.pkg.v]]"
+    ></x-meta>
+
+  </template>
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'x-app',
+
+    properties: {
+      routeTitle: String,
+      activePath: String,
+      buildInfo: Object
+    },
+
+    onRouteChanged: function (e, detail) {
+      this.set('activePath', detail.path);
+      this.set('routeTitle', detail.route.getAttribute('data-title'));
+
+      window.scrollTop = 0;
+    },
+
+    listeners: {
+      'x-toast:show': 'toastShow',
+      'x-toast:hide': 'toastHide'
+    },
+
+    toastHide: function() {
+      this.$.toast.hide();
+    },
+
+    toastShow: function(e, d) {
+      var toast = this.$.toast,
+          light = Polymer.dom(toast);
+
+      toast.hide();
+      toast.set('duration', d.duration);
+      toast.set('text', d.text);
+
+      toast.className = e.target.className;
+      light.innerHTML = '';
+      for (var i = 0; i < d.content.length; i++) {
+        light.appendChild(d.content[i]);
+      };
+      toast.show();
+
+      if(d.andGo) {
+        this.$$('app-router').go(d.andGo);
+      }
+    }
+
+  });
+
+</script>

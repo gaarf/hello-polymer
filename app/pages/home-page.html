@@ -1,0 +1,39 @@
+<dom-module id="home-page">
+  <template>
+
+    <x-meta read key="pkgVersion"
+      data-value="{{pkgVersion}}"
+    ></x-meta>
+
+    <h1>
+      Polymer Carousel <small>v<span>{{pkgVersion}}</span></small>
+    </h1>
+
+
+    <ul>
+      <li>
+        <a is="pushstate-anchor" href="/test">test page</a>
+      </li>
+    </ul>
+
+
+  </template>
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'home-page',
+
+    properties: {
+      pkgVersion: String
+    }
+
+  });
+
+</script>
+
+
+
+

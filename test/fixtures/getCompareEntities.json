@@ -1,0 +1,4220 @@
+{
+  "mainXLabel": "Pepsi 2015-05-01 2015-06-01 ",
+  "mainYLabel": "Pepsi 2015-04-01 2015-05-01 ",
+  "refPlot": true,
+  "refXLabel": "Mountain Dew Kickstart 2015-05-01 2015-06-01 ",
+  "refYLabel": "Mountain Dew Kickstart 2015-04-01 2015-05-01 ",
+  "insightText": "Intent decreased for customers driving Mountain Dew Kickstart sales relative to Pepsi",
+  "refFraction": -1.0614907597650225,
+  "mainFraction": -1.8307230386678413,
+  "statementVoiceExp": [
+    {
+      "entity": "coffee to kickstart",
+      "expVal": 0.00003773459542686207,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 23.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 3.0,
+        "y": 23.0,
+        "name": "coffee to kickstart",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "good morning",
+      "expVal": 0.0000421689741790609,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 23.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 23.0,
+        "name": "good morning",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ask for pepsi",
+      "expVal": -0.0004522246087766109,
+      "mainEntityFrac": {
+        "numerator": 24.0,
+        "denominator": 2184.0,
+        "numSecondary": 38.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 24.0,
+        "y": 38.0,
+        "name": "ask for pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "with my name",
+      "expVal": 0.00024985684428819547,
+      "mainEntityFrac": {
+        "numerator": 12.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 12.0,
+        "y": 1.0,
+        "name": "with my name",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "commercial give,commercial give me,give me,give me life,life ,me life,start commercial give",
+      "expVal": 0.00003125328176241356,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 2.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 4.0,
+        "denominator": 460.0,
+        "numSecondary": 25.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 4.0,
+        "y": 25.0,
+        "name": "commercial give,commercial give me,give me,give me life,life ,me life,start commercial give",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "good cup of coffee to",
+      "expVal": 0.000041535674555757167,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 20.0,
+        "name": "good cup of coffee to",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "with real",
+      "expVal": -0.0010472904354429117,
+      "mainEntityFrac": {
+        "numerator": 85.0,
+        "denominator": 2184.0,
+        "numSecondary": 114.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 85.0,
+        "y": 114.0,
+        "name": "with real",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi okay ?",
+      "expVal": -0.0005894899567010883,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 30.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 9.0,
+        "y": 30.0,
+        "name": "pepsi okay ?",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "coke",
+      "expVal": -0.011803393862416179,
+      "mainEntityFrac": {
+        "numerator": 423.0,
+        "denominator": 2184.0,
+        "numSecondary": 543.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 5.0,
+        "denominator": 460.0,
+        "numSecondary": 3.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 423.0,
+        "y": 543.0,
+        "name": "coke",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "mountain dew kick",
+      "expVal": 0.000010661352776579306,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 51.0,
+        "denominator": 460.0,
+        "numSecondary": 76.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 51.0,
+        "y": 76.0,
+        "name": "mountain dew kick",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "i find",
+      "expVal": 0.0004549199970215117,
+      "mainEntityFrac": {
+        "numerator": 36.0,
+        "denominator": 2184.0,
+        "numSecondary": 22.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 2.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 36.0,
+        "y": 22.0,
+        "name": "i find",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "morning !",
+      "expVal": 0.00003692856713740426,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 3.0,
+        "y": 21.0,
+        "name": "morning !",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "for coke",
+      "expVal": -0.0013400333860188918,
+      "mainEntityFrac": {
+        "numerator": 36.0,
+        "denominator": 2184.0,
+        "numSecondary": 82.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 36.0,
+        "y": 82.0,
+        "name": "for coke",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "name",
+      "expVal": -0.0027485996263395445,
+      "mainEntityFrac": {
+        "numerator": 86.0,
+        "denominator": 2184.0,
+        "numSecondary": 59.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 5.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 86.0,
+        "y": 59.0,
+        "name": "name",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "taste",
+      "expVal": 0.00010564669060806769,
+      "mainEntityFrac": {
+        "numerator": 97.0,
+        "denominator": 2184.0,
+        "numSecondary": 111.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 37.0,
+        "denominator": 460.0,
+        "numSecondary": 51.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 97.0,
+        "y": 111.0,
+        "name": "taste",
+        "expType": "neutral"
+      },
+      "refPoint": {
+        "x": 37.0,
+        "y": 51.0,
+        "name": "taste",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "vip box",
+      "expVal": -0.00034423608592488796,
+      "mainEntityFrac": {
+        "numerator": 7.0,
+        "denominator": 2184.0,
+        "numSecondary": 19.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 7.0,
+        "y": 19.0,
+        "name": "vip box",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi summer bash",
+      "expVal": -0.00039269806217788516,
+      "mainEntityFrac": {
+        "numerator": 22.0,
+        "denominator": 2184.0,
+        "numSecondary": 34.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 22.0,
+        "y": 34.0,
+        "name": "pepsi summer bash",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@raisa6690 : good morning !",
+      "expVal": 0.00003995262563861114,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 15.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 15.0,
+        "name": "@raisa6690 : good morning !",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "kick start",
+      "expVal": 0.0000017232585594862562,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 198.0,
+        "denominator": 460.0,
+        "numSecondary": 235.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 198.0,
+        "y": 235.0,
+        "name": "kick start",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "tell the difference",
+      "expVal": -0.00048198788207597386,
+      "mainEntityFrac": {
+        "numerator": 25.0,
+        "denominator": 2184.0,
+        "numSecondary": 40.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 25.0,
+        "y": 40.0,
+        "name": "tell the difference",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ticket to",
+      "expVal": -0.0005629574818185919,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 29.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 9.0,
+        "y": 29.0,
+        "name": "ticket to",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "coffee to kickstart the day",
+      "expVal": 0.000041765960034332,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 21.0,
+        "name": "coffee to kickstart the day",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "name on",
+      "expVal": -0.000024131168466020597,
+      "mainEntityFrac": {
+        "numerator": 27.0,
+        "denominator": 2184.0,
+        "numSecondary": 16.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 27.0,
+        "y": 16.0,
+        "name": "name on",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi to",
+      "expVal": -0.0003435499983773236,
+      "mainEntityFrac": {
+        "numerator": 15.0,
+        "denominator": 2184.0,
+        "numSecondary": 26.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 15.0,
+        "y": 26.0,
+        "name": "pepsi to",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@pepsi please bring",
+      "expVal": -0.00042706430898924354,
+      "mainEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 2184.0,
+        "numSecondary": 23.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 8.0,
+        "y": 23.0,
+        "name": "@pepsi please bring",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "to kickstart",
+      "expVal": 0.000019995734842892405,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 14.0,
+        "denominator": 460.0,
+        "numSecondary": 29.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 14.0,
+        "y": 29.0,
+        "name": "to kickstart",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "morning ! first thing",
+      "expVal": 0.000041535674555757167,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 20.0,
+        "name": "morning ! first thing",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "winter",
+      "expVal": 0.00022332436940569918,
+      "mainEntityFrac": {
+        "numerator": 12.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 12.0,
+        "y": 1.0,
+        "name": "winter",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "porch",
+      "expVal": 0.0003298535475775961,
+      "mainEntityFrac": {
+        "numerator": 94.0,
+        "denominator": 2184.0,
+        "numSecondary": 70.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 94.0,
+        "y": 70.0,
+        "name": "porch",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "bring back crystal",
+      "expVal": -0.0003804609560579838,
+      "mainEntityFrac": {
+        "numerator": 10.0,
+        "denominator": 2184.0,
+        "numSecondary": 23.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 10.0,
+        "y": 23.0,
+        "name": "bring back crystal",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ice cold",
+      "expVal": 0.00010784511839889665,
+      "mainEntityFrac": {
+        "numerator": 19.0,
+        "denominator": 2184.0,
+        "numSecondary": 8.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 19.0,
+        "y": 8.0,
+        "name": "ice cold",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "good cup",
+      "expVal": 0.00003734909901304783,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 22.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 3.0,
+        "y": 22.0,
+        "name": "good cup",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "sugar",
+      "expVal": -0.0006035501100228615,
+      "mainEntityFrac": {
+        "numerator": 281.0,
+        "denominator": 2184.0,
+        "numSecondary": 359.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 3.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 281.0,
+        "y": 359.0,
+        "name": "sugar",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "first thing first",
+      "expVal": 0.000041765960034332,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 21.0,
+        "name": "first thing first",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi !",
+      "expVal": -0.00043215373072784743,
+      "mainEntityFrac": {
+        "numerator": 26.0,
+        "denominator": 2184.0,
+        "numSecondary": 39.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 26.0,
+        "y": 39.0,
+        "name": "pepsi !",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi product",
+      "expVal": -0.0005350528318409665,
+      "mainEntityFrac": {
+        "numerator": 25.0,
+        "denominator": 2184.0,
+        "numSecondary": 42.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 25.0,
+        "y": 42.0,
+        "name": "pepsi product",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@imdanielpadilla",
+      "expVal": -0.0004840461447186672,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 19.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 19.0,
+        "name": "@imdanielpadilla",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "baja blast",
+      "expVal": -0.0006365131484411434,
+      "mainEntityFrac": {
+        "numerator": 39.0,
+        "denominator": 2184.0,
+        "numSecondary": 58.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 5.0,
+        "denominator": 460.0,
+        "numSecondary": 5.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 39.0,
+        "y": 58.0,
+        "name": "baja blast",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "tea",
+      "expVal": 0.0002866813005512054,
+      "mainEntityFrac": {
+        "numerator": 25.0,
+        "denominator": 2184.0,
+        "numSecondary": 11.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 460.0,
+        "numSecondary": 9.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 25.0,
+        "y": 11.0,
+        "name": "tea",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "bring back",
+      "expVal": -0.0007447679200316352,
+      "mainEntityFrac": {
+        "numerator": 16.0,
+        "denominator": 2184.0,
+        "numSecondary": 42.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 16.0,
+        "y": 42.0,
+        "name": "bring back",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "good cup of coffee",
+      "expVal": 0.000041765960034332,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 21.0,
+        "name": "good cup of coffee",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "vip",
+      "expVal": -0.00042383351057237705,
+      "mainEntityFrac": {
+        "numerator": 7.0,
+        "denominator": 2184.0,
+        "numSecondary": 22.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 7.0,
+        "y": 22.0,
+        "name": "vip",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@raisa6690",
+      "expVal": 0.00004069134622230225,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 17.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 17.0,
+        "name": "@raisa6690",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "to kickstart the day …",
+      "expVal": 0.000041765960034332,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 21.0,
+        "name": "to kickstart the day …",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "they say",
+      "expVal": -0.0004833600571711028,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 26.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 9.0,
+        "y": 26.0,
+        "name": "they say",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "you ask for coke",
+      "expVal": -0.0009337260426259762,
+      "mainEntityFrac": {
+        "numerator": 17.0,
+        "denominator": 2184.0,
+        "numSecondary": 50.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 17.0,
+        "y": 50.0,
+        "name": "you ask for coke",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "first thing",
+      "expVal": 0.00008395245194430757,
+      "mainEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 22.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 3.0,
+        "y": 22.0,
+        "name": "first thing",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@mtv",
+      "expVal": -0.00044390438862114043,
+      "mainEntityFrac": {
+        "numerator": 5.0,
+        "denominator": 2184.0,
+        "numSecondary": 21.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 5.0,
+        "y": 21.0,
+        "name": "@mtv",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "center",
+      "expVal": -0.00028230166314345925,
+      "mainEntityFrac": {
+        "numerator": 15.0,
+        "denominator": 2184.0,
+        "numSecondary": 36.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 2.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 15.0,
+        "y": 36.0,
+        "name": "center",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "dew kick start",
+      "expVal": 0.000010077877115668293,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 69.0,
+        "denominator": 460.0,
+        "numSecondary": 101.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 69.0,
+        "y": 101.0,
+        "name": "dew kick start",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "mtn",
+      "expVal": -0.00007849807172710583,
+      "mainEntityFrac": {
+        "numerator": 7.0,
+        "denominator": 2184.0,
+        "numSecondary": 13.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 31.0,
+        "denominator": 460.0,
+        "numSecondary": 44.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 31.0,
+        "y": 44.0,
+        "name": "mtn",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi with",
+      "expVal": 0.00010554979006405659,
+      "mainEntityFrac": {
+        "numerator": 59.0,
+        "denominator": 2184.0,
+        "numSecondary": 72.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 2.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 59.0,
+        "y": 72.0,
+        "name": "pepsi with",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "! first thing first",
+      "expVal": 0.000041535674555757167,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 20.0,
+        "name": "! first thing first",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "to kickstart the day",
+      "expVal": 0.00003692856713740426,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 3.0,
+        "y": 21.0,
+        "name": "to kickstart the day",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "vanilla pepsi",
+      "expVal": -0.0019586876980564752,
+      "mainEntityFrac": {
+        "numerator": 170.0,
+        "denominator": 2184.0,
+        "numSecondary": 223.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 170.0,
+        "y": 223.0,
+        "name": "vanilla pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "baja",
+      "expVal": -0.0005032796346013618,
+      "mainEntityFrac": {
+        "numerator": 40.0,
+        "denominator": 2184.0,
+        "numSecondary": 63.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 5.0,
+        "denominator": 460.0,
+        "numSecondary": 6.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 40.0,
+        "y": 63.0,
+        "name": "baja",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "waitress",
+      "expVal": -0.00037399935922425095,
+      "mainEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 2184.0,
+        "numSecondary": 21.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 8.0,
+        "y": 21.0,
+        "name": "waitress",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "coke and they",
+      "expVal": -0.0007311586388166048,
+      "mainEntityFrac": {
+        "numerator": 20.0,
+        "denominator": 2184.0,
+        "numSecondary": 45.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 20.0,
+        "y": 45.0,
+        "name": "coke and they",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "good morning ! first",
+      "expVal": 0.000041535674555757167,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 20.0,
+        "name": "good morning ! first",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "vanilla",
+      "expVal": -0.0027568073767587557,
+      "mainEntityFrac": {
+        "numerator": 261.0,
+        "denominator": 2184.0,
+        "numSecondary": 333.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 261.0,
+        "y": 333.0,
+        "name": "vanilla",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "taco",
+      "expVal": 0.0003882209358517369,
+      "mainEntityFrac": {
+        "numerator": 25.0,
+        "denominator": 2184.0,
+        "numSecondary": 9.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 460.0,
+        "numSecondary": 10.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 25.0,
+        "y": 9.0,
+        "name": "taco",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "mountain dew kick start",
+      "expVal": 0.000010661352776579306,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 51.0,
+        "denominator": 460.0,
+        "numSecondary": 76.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 51.0,
+        "y": 76.0,
+        "name": "mountain dew kick start",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "cup of coffee to",
+      "expVal": 0.00003330021667466325,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 5.0,
+        "denominator": 460.0,
+        "numSecondary": 23.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 5.0,
+        "y": 23.0,
+        "name": "cup of coffee to",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "#arawmoto",
+      "expVal": -0.00053711109448366,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 21.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 21.0,
+        "name": "#arawmoto",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi center",
+      "expVal": -0.0005758806754860576,
+      "mainEntityFrac": {
+        "numerator": 13.0,
+        "denominator": 2184.0,
+        "numSecondary": 33.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 13.0,
+        "y": 33.0,
+        "name": "pepsi center",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "",
+      "expVal": -0.0005671757325527016,
+      "mainEntityFrac": {
+        "numerator": 19.0,
+        "denominator": 2184.0,
+        "numSecondary": 33.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 7.0,
+        "denominator": 460.0,
+        "numSecondary": 6.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 19.0,
+        "y": 33.0,
+        "name": "",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "energy",
+      "expVal": 0.0000041550044162004605,
+      "mainEntityFrac": {
+        "numerator": 4.0,
+        "denominator": 2184.0,
+        "numSecondary": 5.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 37.0,
+        "denominator": 460.0,
+        "numSecondary": 53.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 37.0,
+        "y": 53.0,
+        "name": "energy",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "aspartame",
+      "expVal": -0.0003248512954236891,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 13.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 13.0,
+        "name": "aspartame",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "thing",
+      "expVal": 0.00033460596871149744,
+      "mainEntityFrac": {
+        "numerator": 33.0,
+        "denominator": 2184.0,
+        "numSecondary": 42.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 11.0,
+        "denominator": 460.0,
+        "numSecondary": 29.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 11.0,
+        "y": 29.0,
+        "name": "thing",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi ?",
+      "expVal": -0.0008255378804532973,
+      "mainEntityFrac": {
+        "numerator": 41.0,
+        "denominator": 2184.0,
+        "numSecondary": 67.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 41.0,
+        "y": 67.0,
+        "name": "pepsi ?",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "coffee to",
+      "expVal": 0.00002818326752864433,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 460.0,
+        "numSecondary": 25.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 8.0,
+        "y": 25.0,
+        "name": "coffee to",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "mtn dew",
+      "expVal": -0.000032949101636561633,
+      "mainEntityFrac": {
+        "numerator": 7.0,
+        "denominator": 2184.0,
+        "numSecondary": 12.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 25.0,
+        "denominator": 460.0,
+        "numSecondary": 40.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 25.0,
+        "y": 40.0,
+        "name": "mtn dew",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi okay",
+      "expVal": -0.0006121055456191535,
+      "mainEntityFrac": {
+        "numerator": 16.0,
+        "denominator": 2184.0,
+        "numSecondary": 37.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 16.0,
+        "y": 37.0,
+        "name": "pepsi okay",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "for coke and they",
+      "expVal": -0.0006160224315835845,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 31.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 9.0,
+        "y": 31.0,
+        "name": "for coke and they",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ask for",
+      "expVal": -0.0022403660782867275,
+      "mainEntityFrac": {
+        "numerator": 134.0,
+        "denominator": 2184.0,
+        "numSecondary": 202.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 134.0,
+        "y": 202.0,
+        "name": "ask for",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "made with real",
+      "expVal": -0.0004909941897790087,
+      "mainEntityFrac": {
+        "numerator": 36.0,
+        "denominator": 2184.0,
+        "numSecondary": 50.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 36.0,
+        "y": 50.0,
+        "name": "made with real",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "difference between",
+      "expVal": -0.0008091842490480091,
+      "mainEntityFrac": {
+        "numerator": 77.0,
+        "denominator": 2184.0,
+        "numSecondary": 98.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 77.0,
+        "y": 98.0,
+        "name": "difference between",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@cocacola",
+      "expVal": 0.00042795003585776394,
+      "mainEntityFrac": {
+        "numerator": 39.0,
+        "denominator": 2184.0,
+        "numSecondary": 18.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 39.0,
+        "y": 18.0,
+        "name": "@cocacola",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "cup",
+      "expVal": 0.00012643399284199605,
+      "mainEntityFrac": {
+        "numerator": 13.0,
+        "denominator": 2184.0,
+        "numSecondary": 10.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 42.0,
+        "denominator": 460.0,
+        "numSecondary": 62.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 42.0,
+        "y": 62.0,
+        "name": "cup",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "i ask",
+      "expVal": -0.0005401422535795706,
+      "mainEntityFrac": {
+        "numerator": 43.0,
+        "denominator": 2184.0,
+        "numSecondary": 58.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 43.0,
+        "y": 58.0,
+        "name": "i ask",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "crystal",
+      "expVal": -0.001571334931806279,
+      "mainEntityFrac": {
+        "numerator": 46.0,
+        "denominator": 2184.0,
+        "numSecondary": 66.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 46.0,
+        "y": 66.0,
+        "name": "crystal",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ticket",
+      "expVal": -0.002137180168267955,
+      "mainEntityFrac": {
+        "numerator": 61.0,
+        "denominator": 2184.0,
+        "numSecondary": 134.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 61.0,
+        "y": 134.0,
+        "name": "ticket",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "thing first , a good",
+      "expVal": 0.000041765960034332,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 21.0,
+        "name": "thing first , a good",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "when you ask",
+      "expVal": -0.0010643301543957645,
+      "mainEntityFrac": {
+        "numerator": 41.0,
+        "denominator": 2184.0,
+        "numSecondary": 76.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 41.0,
+        "y": 76.0,
+        "name": "when you ask",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi and coke",
+      "expVal": -0.00046906468840850787,
+      "mainEntityFrac": {
+        "numerator": 21.0,
+        "denominator": 2184.0,
+        "numSecondary": 36.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 21.0,
+        "y": 36.0,
+        "name": "pepsi and coke",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "drink",
+      "expVal": 0.0005531992387365898,
+      "mainEntityFrac": {
+        "numerator": 209.0,
+        "denominator": 2184.0,
+        "numSecondary": 199.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 242.0,
+        "denominator": 460.0,
+        "numSecondary": 297.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 242.0,
+        "y": 297.0,
+        "name": "drink",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "i ask for",
+      "expVal": -0.0005182127522090694,
+      "mainEntityFrac": {
+        "numerator": 28.0,
+        "denominator": 2184.0,
+        "numSecondary": 44.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 28.0,
+        "y": 44.0,
+        "name": "i ask for",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ask for coke",
+      "expVal": -0.0012507435661208034,
+      "mainEntityFrac": {
+        "numerator": 33.0,
+        "denominator": 2184.0,
+        "numSecondary": 76.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 33.0,
+        "y": 76.0,
+        "name": "ask for coke",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi made with real sugar",
+      "expVal": -0.00036685167484295345,
+      "mainEntityFrac": {
+        "numerator": 14.0,
+        "denominator": 2184.0,
+        "numSecondary": 26.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 14.0,
+        "y": 26.0,
+        "name": "pepsi made with real sugar",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "between pepsi and coke",
+      "expVal": -0.00037331327167668647,
+      "mainEntityFrac": {
+        "numerator": 16.0,
+        "denominator": 2184.0,
+        "numSecondary": 28.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 16.0,
+        "y": 28.0,
+        "name": "between pepsi and coke",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "water",
+      "expVal": 0.00004119813239689049,
+      "mainEntityFrac": {
+        "numerator": 36.0,
+        "denominator": 2184.0,
+        "numSecondary": 53.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 11.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 36.0,
+        "y": 53.0,
+        "name": "water",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "help",
+      "expVal": -0.0010575559265578417,
+      "mainEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 2184.0,
+        "numSecondary": 21.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 12.0,
+        "denominator": 460.0,
+        "numSecondary": 5.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 8.0,
+        "y": 21.0,
+        "name": "help",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "first , a good",
+      "expVal": 0.000041765960034332,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 21.0,
+        "name": "first , a good",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "coca cola",
+      "expVal": 0.00014970209336533446,
+      "mainEntityFrac": {
+        "numerator": 43.0,
+        "denominator": 2184.0,
+        "numSecondary": 32.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 43.0,
+        "y": 32.0,
+        "name": "coca cola",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "#wwechamber",
+      "expVal": -0.0004309811949536744,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 17.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 17.0,
+        "y": 1.0,
+        "name": "#wwechamber",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "vs",
+      "expVal": -0.00037723015764111733,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 22.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 9.0,
+        "y": 22.0,
+        "name": "vs",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "back crystal",
+      "expVal": -0.00035715927959235395,
+      "mainEntityFrac": {
+        "numerator": 11.0,
+        "denominator": 2184.0,
+        "numSecondary": 23.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 11.0,
+        "y": 23.0,
+        "name": "back crystal",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "kick",
+      "expVal": 0.0000062811160512822676,
+      "mainEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 2184.0,
+        "numSecondary": 8.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 202.0,
+        "denominator": 460.0,
+        "numSecondary": 238.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 202.0,
+        "y": 238.0,
+        "name": "kick",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "cold",
+      "expVal": -0.00028463741496827894,
+      "mainEntityFrac": {
+        "numerator": 45.0,
+        "denominator": 2184.0,
+        "numSecondary": 32.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 16.0,
+        "denominator": 460.0,
+        "numSecondary": 10.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 45.0,
+        "y": 32.0,
+        "name": "cold",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi shirt",
+      "expVal": 0.00034835261121027484,
+      "mainEntityFrac": {
+        "numerator": 39.0,
+        "denominator": 2184.0,
+        "numSecondary": 21.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 39.0,
+        "y": 21.0,
+        "name": "pepsi shirt",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "between pepsi",
+      "expVal": -0.0005479760255084326,
+      "mainEntityFrac": {
+        "numerator": 29.0,
+        "denominator": 2184.0,
+        "numSecondary": 46.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 29.0,
+        "y": 46.0,
+        "name": "between pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "say \" is pepsi",
+      "expVal": -0.0003248512954236891,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 13.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 13.0,
+        "name": "say \" is pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "kickstart the day",
+      "expVal": 0.00003209117424047654,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 5.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 5.0,
+        "y": 21.0,
+        "name": "kickstart the day",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "crystal pepsi",
+      "expVal": -0.001435441758976931,
+      "mainEntityFrac": {
+        "numerator": 45.0,
+        "denominator": 2184.0,
+        "numSecondary": 62.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 45.0,
+        "y": 62.0,
+        "name": "crystal pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "please bring back",
+      "expVal": -0.00043029510740611,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 24.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 9.0,
+        "y": 24.0,
+        "name": "please bring back",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "asked",
+      "expVal": -0.00048082574902954595,
+      "mainEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 2184.0,
+        "numSecondary": 25.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 2.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 8.0,
+        "y": 25.0,
+        "name": "asked",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "kickstart the day …",
+      "expVal": 0.000041765960034332,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 21.0,
+        "name": "kickstart the day …",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "cup of coffee to kickstart",
+      "expVal": 0.00003734909901304783,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 22.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 3.0,
+        "y": 22.0,
+        "name": "cup of coffee to kickstart",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "taste like",
+      "expVal": 0.0002591620689990891,
+      "mainEntityFrac": {
+        "numerator": 33.0,
+        "denominator": 2184.0,
+        "numSecondary": 32.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 16.0,
+        "denominator": 460.0,
+        "numSecondary": 27.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 16.0,
+        "y": 27.0,
+        "name": "taste like",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "",
+      "expVal": -0.00016806799100181716,
+      "mainEntityFrac": {
+        "numerator": 7.0,
+        "denominator": 2184.0,
+        "numSecondary": 19.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 5.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 7.0,
+        "y": 19.0,
+        "name": "",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "first , a good cup",
+      "expVal": 0.000041765960034332,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 21.0,
+        "name": "first , a good cup",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "summer bash",
+      "expVal": -0.00039269806217788516,
+      "mainEntityFrac": {
+        "numerator": 22.0,
+        "denominator": 2184.0,
+        "numSecondary": 34.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 22.0,
+        "y": 34.0,
+        "name": "summer bash",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "to drink",
+      "expVal": 0.00035034705258821556,
+      "mainEntityFrac": {
+        "numerator": 24.0,
+        "denominator": 2184.0,
+        "numSecondary": 11.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 15.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 24.0,
+        "y": 11.0,
+        "name": "to drink",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@pepsi please bring back",
+      "expVal": -0.00040053183410674724,
+      "mainEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 2184.0,
+        "numSecondary": 22.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 8.0,
+        "y": 22.0,
+        "name": "@pepsi please bring back",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ask for coke and they",
+      "expVal": -0.0005894899567010883,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 30.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 9.0,
+        "y": 30.0,
+        "name": "ask for coke and they",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@raisa6690 : good morning",
+      "expVal": 0.00003995262563861114,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 15.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 15.0,
+        "name": "@raisa6690 : good morning",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "opening",
+      "expVal": -0.0006629688282886264,
+      "mainEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 2184.0,
+        "numSecondary": 18.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 3.0,
+        "y": 18.0,
+        "name": "opening",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@pepsi",
+      "expVal": 0.0020498396141503494,
+      "mainEntityFrac": {
+        "numerator": 270.0,
+        "denominator": 2184.0,
+        "numSecondary": 320.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 3.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 270.0,
+        "y": 320.0,
+        "name": "@pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ice",
+      "expVal": 0.0000336222070741421,
+      "mainEntityFrac": {
+        "numerator": 50.0,
+        "denominator": 2184.0,
+        "numSecondary": 37.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 7.0,
+        "denominator": 460.0,
+        "numSecondary": 6.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 50.0,
+        "y": 37.0,
+        "name": "ice",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "russell westbrook",
+      "expVal": 0.00003596245828961502,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 14.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 2.0,
+        "y": 14.0,
+        "name": "russell westbrook",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "day …",
+      "expVal": 0.00003734909901304783,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 22.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 3.0,
+        "y": 22.0,
+        "name": "day …",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi showdown",
+      "expVal": -0.0003779162451886818,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 15.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 15.0,
+        "name": "pepsi showdown",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "coffee",
+      "expVal": 0.00011462397800742117,
+      "mainEntityFrac": {
+        "numerator": 17.0,
+        "denominator": 2184.0,
+        "numSecondary": 17.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 34.0,
+        "denominator": 460.0,
+        "numSecondary": 54.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 34.0,
+        "y": 54.0,
+        "name": "coffee",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ipl",
+      "expVal": -0.00039201197463032095,
+      "mainEntityFrac": {
+        "numerator": 30.0,
+        "denominator": 2184.0,
+        "numSecondary": 41.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 30.0,
+        "y": 41.0,
+        "name": "ipl",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "dew kickstart",
+      "expVal": 0.000015975048234361335,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 60.0,
+        "denominator": 460.0,
+        "numSecondary": 105.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 60.0,
+        "y": 105.0,
+        "name": "dew kickstart",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "for pepsi",
+      "expVal": -0.0008319994772870303,
+      "mainEntityFrac": {
+        "numerator": 43.0,
+        "denominator": 2184.0,
+        "numSecondary": 69.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 43.0,
+        "y": 69.0,
+        "name": "for pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@pepsi please",
+      "expVal": -0.0009122829894820839,
+      "mainEntityFrac": {
+        "numerator": 35.0,
+        "denominator": 2184.0,
+        "numSecondary": 65.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 35.0,
+        "y": 65.0,
+        "name": "@pepsi please",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "park",
+      "expVal": -0.0012966608315044983,
+      "mainEntityFrac": {
+        "numerator": 39.0,
+        "denominator": 2184.0,
+        "numSecondary": 55.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 39.0,
+        "y": 55.0,
+        "name": "park",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi summer",
+      "expVal": -0.0005848869831890928,
+      "mainEntityFrac": {
+        "numerator": 24.0,
+        "denominator": 2184.0,
+        "numSecondary": 43.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 24.0,
+        "y": 43.0,
+        "name": "pepsi summer",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "please bring",
+      "expVal": -0.0005098925320535992,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 27.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 9.0,
+        "y": 27.0,
+        "name": "please bring",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "energy drink",
+      "expVal": 0.000013489417499741634,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 27.0,
+        "denominator": 460.0,
+        "numSecondary": 44.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 27.0,
+        "y": 44.0,
+        "name": "energy drink",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "real sugar",
+      "expVal": -0.0018889823079805419,
+      "mainEntityFrac": {
+        "numerator": 132.0,
+        "denominator": 2184.0,
+        "numSecondary": 187.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 132.0,
+        "y": 187.0,
+        "name": "real sugar",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "with real sugar",
+      "expVal": -0.0011042722711723356,
+      "mainEntityFrac": {
+        "numerator": 78.0,
+        "denominator": 2184.0,
+        "numSecondary": 110.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 78.0,
+        "y": 110.0,
+        "name": "with real sugar",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "girl soccer",
+      "expVal": -0.0003513837703061855,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 14.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 14.0,
+        "name": "girl soccer",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "soda",
+      "expVal": 0.0003074404000057096,
+      "mainEntityFrac": {
+        "numerator": 59.0,
+        "denominator": 2184.0,
+        "numSecondary": 81.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 6.0,
+        "denominator": 460.0,
+        "numSecondary": 13.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 59.0,
+        "y": 81.0,
+        "name": "soda",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "dew kick",
+      "expVal": 0.000010077877115668293,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 69.0,
+        "denominator": 460.0,
+        "numSecondary": 101.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 69.0,
+        "y": 101.0,
+        "name": "dew kick",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "my name",
+      "expVal": -0.000027848415109495716,
+      "mainEntityFrac": {
+        "numerator": 61.0,
+        "denominator": 2184.0,
+        "numSecondary": 36.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 61.0,
+        "y": 36.0,
+        "name": "my name",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@pepsiphl",
+      "expVal": -0.0003248512954236891,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 13.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 13.0,
+        "name": "@pepsiphl",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "coke and they say",
+      "expVal": -0.0003513837703061855,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 14.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 14.0,
+        "name": "coke and they say",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "you ask",
+      "expVal": -0.0026157938474742357,
+      "mainEntityFrac": {
+        "numerator": 49.0,
+        "denominator": 2184.0,
+        "numSecondary": 94.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 49.0,
+        "y": 94.0,
+        "name": "you ask",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "first",
+      "expVal": 0.0003901995795569181,
+      "mainEntityFrac": {
+        "numerator": 23.0,
+        "denominator": 2184.0,
+        "numSecondary": 23.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 460.0,
+        "numSecondary": 33.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 8.0,
+        "y": 33.0,
+        "name": "first",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "when i ask",
+      "expVal": -0.0003306268047098576,
+      "mainEntityFrac": {
+        "numerator": 11.0,
+        "denominator": 2184.0,
+        "numSecondary": 22.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 11.0,
+        "y": 22.0,
+        "name": "when i ask",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@bomani_jones",
+      "expVal": -0.0003248512954236891,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 13.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 13.0,
+        "name": "@bomani_jones",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "bring",
+      "expVal": 0.00001842795322318183,
+      "mainEntityFrac": {
+        "numerator": 50.0,
+        "denominator": 2184.0,
+        "numSecondary": 76.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 6.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 50.0,
+        "y": 76.0,
+        "name": "bring",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "westbrook",
+      "expVal": 0.000035035535533494855,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 4.0,
+        "denominator": 460.0,
+        "numSecondary": 22.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 4.0,
+        "y": 22.0,
+        "name": "westbrook",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "blast",
+      "expVal": -0.0005791362870314405,
+      "mainEntityFrac": {
+        "numerator": 70.0,
+        "denominator": 2184.0,
+        "numSecondary": 83.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 6.0,
+        "denominator": 460.0,
+        "numSecondary": 6.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 70.0,
+        "y": 83.0,
+        "name": "blast",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "! first",
+      "expVal": 0.00003900183536800589,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 2.0,
+        "y": 20.0,
+        "name": "! first",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "! first thing",
+      "expVal": 0.000041535674555757167,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 20.0,
+        "name": "! first thing",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "real .",
+      "expVal": -0.0003474668843417546,
+      "mainEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 2184.0,
+        "numSecondary": 20.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 8.0,
+        "y": 20.0,
+        "name": "real .",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "good morning ! first thing",
+      "expVal": 0.000041535674555757167,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 20.0,
+        "name": "good morning ! first thing",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "okay ?",
+      "expVal": -0.0007479987184485019,
+      "mainEntityFrac": {
+        "numerator": 17.0,
+        "denominator": 2184.0,
+        "numSecondary": 43.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 17.0,
+        "y": 43.0,
+        "name": "okay ?",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "when you ask for coke",
+      "expVal": -0.0008508978195616208,
+      "mainEntityFrac": {
+        "numerator": 16.0,
+        "denominator": 2184.0,
+        "numSecondary": 46.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 16.0,
+        "y": 46.0,
+        "name": "when you ask for coke",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "",
+      "expVal": -0.00001513694543859867,
+      "mainEntityFrac": {
+        "numerator": 14.0,
+        "denominator": 2184.0,
+        "numSecondary": 47.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 6.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 14.0,
+        "y": 47.0,
+        "name": "",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "made with real sugar",
+      "expVal": -0.0005608992191758984,
+      "mainEntityFrac": {
+        "numerator": 33.0,
+        "denominator": 2184.0,
+        "numSecondary": 50.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 33.0,
+        "y": 50.0,
+        "name": "made with real sugar",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "box",
+      "expVal": -0.0006224840284173174,
+      "mainEntityFrac": {
+        "numerator": 11.0,
+        "denominator": 2184.0,
+        "numSecondary": 33.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 11.0,
+        "y": 33.0,
+        "name": "box",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "meet",
+      "expVal": -0.001295631700183152,
+      "mainEntityFrac": {
+        "numerator": 51.0,
+        "denominator": 2184.0,
+        "numSecondary": 62.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 51.0,
+        "y": 62.0,
+        "name": "meet",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "my name on",
+      "expVal": 0.00028676780196885574,
+      "mainEntityFrac": {
+        "numerator": 17.0,
+        "denominator": 2184.0,
+        "numSecondary": 4.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 17.0,
+        "y": 4.0,
+        "name": "my name on",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "russell",
+      "expVal": 0.00003773534286782351,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 17.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 2.0,
+        "y": 17.0,
+        "name": "russell",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "morning ! first thing first",
+      "expVal": 0.000041535674555757167,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 20.0,
+        "name": "morning ! first thing first",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi made with",
+      "expVal": -0.000376544070093553,
+      "mainEntityFrac": {
+        "numerator": 17.0,
+        "denominator": 2184.0,
+        "numSecondary": 29.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 17.0,
+        "y": 29.0,
+        "name": "pepsi made with",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "give me",
+      "expVal": -0.0003452012366344579,
+      "mainEntityFrac": {
+        "numerator": 7.0,
+        "denominator": 2184.0,
+        "numSecondary": 19.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 4.0,
+        "denominator": 460.0,
+        "numSecondary": 4.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 7.0,
+        "y": 19.0,
+        "name": "give me",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "you ask for",
+      "expVal": -0.0013555012905556597,
+      "mainEntityFrac": {
+        "numerator": 49.0,
+        "denominator": 2184.0,
+        "numSecondary": 94.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 49.0,
+        "y": 94.0,
+        "name": "you ask for",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "thing first",
+      "expVal": 0.00003934726358586813,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 21.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 2.0,
+        "y": 21.0,
+        "name": "thing first",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "pepsi porch",
+      "expVal": 0.0002191206745356154,
+      "mainEntityFrac": {
+        "numerator": 79.0,
+        "denominator": 2184.0,
+        "numSecondary": 61.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 79.0,
+        "y": 61.0,
+        "name": "pepsi porch",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "shirt",
+      "expVal": 0.0008974690198623499,
+      "mainEntityFrac": {
+        "numerator": 112.0,
+        "denominator": 2184.0,
+        "numSecondary": 86.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 8.0,
+        "denominator": 460.0,
+        "numSecondary": 11.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 112.0,
+        "y": 86.0,
+        "name": "shirt",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "ask",
+      "expVal": -0.014284051412297376,
+      "mainEntityFrac": {
+        "numerator": 158.0,
+        "denominator": 2184.0,
+        "numSecondary": 225.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 5.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 158.0,
+        "y": 225.0,
+        "name": "ask",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "#bringbackcrystalpepsi",
+      "expVal": -0.0012876545238014638,
+      "mainEntityFrac": {
+        "numerator": 28.0,
+        "denominator": 2184.0,
+        "numSecondary": 73.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 28.0,
+        "y": 73.0,
+        "name": "#bringbackcrystalpepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "find out",
+      "expVal": -0.001809297713748356,
+      "mainEntityFrac": {
+        "numerator": 17.0,
+        "denominator": 2184.0,
+        "numSecondary": 41.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 17.0,
+        "y": 41.0,
+        "name": "find out",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "soccer",
+      "expVal": -0.0008612763023597846,
+      "mainEntityFrac": {
+        "numerator": 11.0,
+        "denominator": 2184.0,
+        "numSecondary": 42.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 11.0,
+        "y": 42.0,
+        "name": "soccer",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "bring back crystal pepsi",
+      "expVal": -0.0003804609560579838,
+      "mainEntityFrac": {
+        "numerator": 10.0,
+        "denominator": 2184.0,
+        "numSecondary": 23.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 10.0,
+        "y": 23.0,
+        "name": "bring back crystal pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "cup of coffee",
+      "expVal": 0.000023795504883919098,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 17.0,
+        "denominator": 460.0,
+        "numSecondary": 41.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 17.0,
+        "y": 41.0,
+        "name": "cup of coffee",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "i drank",
+      "expVal": -0.000015759040436147282,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 4.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 14.0,
+        "denominator": 460.0,
+        "numSecondary": 31.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 14.0,
+        "y": 31.0,
+        "name": "i drank",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "game",
+      "expVal": -0.0004644801528453999,
+      "mainEntityFrac": {
+        "numerator": 19.0,
+        "denominator": 2184.0,
+        "numSecondary": 34.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 5.0,
+        "denominator": 460.0,
+        "numSecondary": 5.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 19.0,
+        "y": 34.0,
+        "name": "game",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "morning",
+      "expVal": 0.000013489785263898275,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 10.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 32.0,
+        "denominator": 460.0,
+        "numSecondary": 43.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 32.0,
+        "y": 43.0,
+        "name": "morning",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "morning ! first",
+      "expVal": 0.000041535674555757167,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 20.0,
+        "name": "morning ! first",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "difference between pepsi and coke",
+      "expVal": -0.00037723015764111733,
+      "mainEntityFrac": {
+        "numerator": 9.0,
+        "denominator": 2184.0,
+        "numSecondary": 22.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 9.0,
+        "y": 22.0,
+        "name": "difference between pepsi and coke",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "difference",
+      "expVal": -0.002379689688853897,
+      "mainEntityFrac": {
+        "numerator": 95.0,
+        "denominator": 2184.0,
+        "numSecondary": 115.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 95.0,
+        "y": 115.0,
+        "name": "difference",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "showdown",
+      "expVal": -0.0004309811949536744,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 17.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 1.0,
+        "y": 17.0,
+        "name": "showdown",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@raisa6690 : good",
+      "expVal": 0.00003995262563861114,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 15.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 15.0,
+        "name": "@raisa6690 : good",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "@kevlabeast",
+      "expVal": -0.0006275734501559215,
+      "mainEntityFrac": {
+        "numerator": 29.0,
+        "denominator": 2184.0,
+        "numSecondary": 49.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 29.0,
+        "y": 49.0,
+        "name": "@kevlabeast",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "when you ask for",
+      "expVal": -0.0010643301543957645,
+      "mainEntityFrac": {
+        "numerator": 41.0,
+        "denominator": 2184.0,
+        "numSecondary": 76.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 41.0,
+        "y": 76.0,
+        "name": "when you ask for",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "deal",
+      "expVal": -0.0006726612235392259,
+      "mainEntityFrac": {
+        "numerator": 6.0,
+        "denominator": 2184.0,
+        "numSecondary": 20.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 2.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 6.0,
+        "y": 20.0,
+        "name": "deal",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "bash",
+      "expVal": -0.00039592886059475164,
+      "mainEntityFrac": {
+        "numerator": 23.0,
+        "denominator": 2184.0,
+        "numSecondary": 35.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 23.0,
+        "y": 35.0,
+        "name": "bash",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "back crystal pepsi",
+      "expVal": -0.00035715927959235395,
+      "mainEntityFrac": {
+        "numerator": 11.0,
+        "denominator": 2184.0,
+        "numSecondary": 23.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 11.0,
+        "y": 23.0,
+        "name": "back crystal pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "high",
+      "expVal": -0.0014019612390340933,
+      "mainEntityFrac": {
+        "numerator": 10.0,
+        "denominator": 2184.0,
+        "numSecondary": 24.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 4.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 10.0,
+        "y": 24.0,
+        "name": "high",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "drank",
+      "expVal": 0.00016469731501663672,
+      "mainEntityFrac": {
+        "numerator": 16.0,
+        "denominator": 2184.0,
+        "numSecondary": 13.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 40.0,
+        "denominator": 460.0,
+        "numSecondary": 65.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 40.0,
+        "y": 65.0,
+        "name": "drank",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "free",
+      "expVal": 0.0003634542428419738,
+      "mainEntityFrac": {
+        "numerator": 24.0,
+        "denominator": 2184.0,
+        "numSecondary": 34.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 3.0,
+        "denominator": 460.0,
+        "numSecondary": 16.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 3.0,
+        "y": 16.0,
+        "name": "free",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "good morning !",
+      "expVal": 0.000041535674555757167,
+      "mainEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 2184.0,
+        "numSecondary": 1.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 20.0,
+        "denSecondary": 606.0
+      },
+      "refPoint": {
+        "x": 1.0,
+        "y": 20.0,
+        "name": "good morning !",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "difference between pepsi",
+      "expVal": -0.0003500115952110566,
+      "mainEntityFrac": {
+        "numerator": 17.0,
+        "denominator": 2184.0,
+        "numSecondary": 28.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 1.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 17.0,
+        "y": 28.0,
+        "name": "difference between pepsi",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "product",
+      "expVal": 0.00046991059935164723,
+      "mainEntityFrac": {
+        "numerator": 47.0,
+        "denominator": 2184.0,
+        "numSecondary": 60.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 1.0,
+        "denominator": 460.0,
+        "numSecondary": 4.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 47.0,
+        "y": 60.0,
+        "name": "product",
+        "expType": "neutral"
+      }
+    },
+    {
+      "entity": "sell",
+      "expVal": -0.0005606902184773331,
+      "mainEntityFrac": {
+        "numerator": 12.0,
+        "denominator": 2184.0,
+        "numSecondary": 25.0,
+        "denSecondary": 2518.0
+      },
+      "compareEntityFrac": {
+        "numerator": 4.0,
+        "denominator": 460.0,
+        "numSecondary": 3.0,
+        "denSecondary": 606.0
+      },
+      "mainPoint": {
+        "x": 12.0,
+        "y": 25.0,
+        "name": "sell",
+        "expType": "neutral"
+      }
+    }
+  ]
+}

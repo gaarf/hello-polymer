@@ -29,6 +29,10 @@ morgan.token('ms', function (req, res){
 var httpStaticLogger = morgan(colors.green('http')+' :method :url :ms :status');
 var httpIndexLogger = morgan(colors.inverse('http')+' :method :url :ms :status');
 
+var render404 = function (req, res) {
+  finalhandler(req, res)(false);
+};
+
 function makeApp () {
 
   var app = express();
@@ -45,18 +49,14 @@ function makeApp () {
   app.use('/assets', [
     httpStaticLogger,
     express.static(DIST_PATH + '/assets'),
-    function(req, res) {
-      finalhandler(req, res)(false); // 404
-    }
+    render404
   ]);
 
   // serve bower_components
   app.use('/bower_components', [
     httpStaticLogger,
     express.static(ROOT_PATH + '/bower_components'),
-    function(req, res) {
-      finalhandler(req, res)(false); // 404
-    }
+    render404
   ]);
 
   app.get('/robots.txt', [
@@ -66,7 +66,6 @@ function makeApp () {
       res.send('User-agent: *\nDisallow: /');
     }
   ]);
-
 
   // any other path, serve index.html
   app.all('*', [
