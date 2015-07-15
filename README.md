@@ -1,7 +1,7 @@
-Polymer Carousel
-================
+Qomponents
+==========
 
-_It almost works._
+_Frontend Web Components_
 
 ### Installation
 
