@@ -2,6 +2,9 @@ var gulp = require('gulp'),
     plug = require('gulp-load-plugins')(),
     pkg = require('./package.json'),
     spawn = require('child_process').spawn,
+    mkdirp = require('mkdirp'),
+    path = require('path'),
+    fs = require('fs'),
     del = require('del');
 
 /*
@@ -178,14 +181,56 @@ gulp.task('rev:manifest', ['minify'], function() {
     .pipe(gulp.dest('./dist/assets/bundle')); // write manifest
 
 });
+
 gulp.task('rev:replace', ['html:main', 'rev:manifest'], function() {
   var rev = require('./dist/assets/bundle/manifest.json'),
       out = gulp.src('./dist/*.html'),
       p = '/assets/bundle/';
   for (var f in rev) {
-    out = out.pipe(plug.replace(p+f, p+rev[f]));
+      out = out.pipe(
+        plug.replace(
+          f.indexOf('vulcan.html')===0 ? '/assets/elements/everything.html' : p+f,
+          p+rev[f]
+        )
+      );
   };
   return out.pipe(gulp.dest('./dist'));
+});
+
+
+gulp.task('vulcanize', ['html:elements'], function (done) {
+
+  /**
+   * cf https://github.com/Polymer/vulcanize/issues/203
+   */
+
+  // return gulp.src('/dist/assets/elements/everything.html')
+  //   .pipe(plug.vulcanize({
+  //     abspath: __dirname
+  //   }))
+  //   .pipe(plug.concat('vulcan.html'))
+  //   .pipe(gulp.dest('./dist/assets/bundle'));
+
+
+  var output = [],
+      child = spawn(
+        './node_modules/gulp-vulcanize/node_modules/.bin/vulcanize',
+        [ '--abspath', '.', 'dist/assets/elements/everything.html' ],
+        { cwd: __dirname }
+      );
+
+  child.stdout.on('data', function (b) {
+    output.push(b);
+  });
+
+  child.on('close', function() {
+    var filename = __dirname + '/dist/assets/bundle/vulcan.html';
+    mkdirp(path.dirname(filename), function() {
+      fs.writeFile(filename, Buffer.concat(output), done);
+    });
+  });
+
+
 });
 
 
@@ -194,7 +239,7 @@ gulp.task('rev:replace', ['html:main', 'rev:manifest'], function() {
  */
 gulp.task('js', ['js:lib', 'js:app']);
 gulp.task('css', ['css:lib', 'css:app']);
-gulp.task('minify', ['minify:js', 'minify:css']);
+gulp.task('minify', ['minify:js', 'minify:css', 'vulcanize']);
 gulp.task('build:assets', ['js', 'css', 'img', 'html:pages', 'html:elements']);
 gulp.task('build:livereload', ['build:assets', 'html:main:livereload']);
 gulp.task('build', ['build:assets', 'html:main']);
@@ -231,16 +276,16 @@ gulp.task('develop', ['watch'], function() {
   gulp.watch('./server/**/*', function() {
     clearTimeout(t);
     t = setTimeout(function() {
-      plug.util.log(plug.util.colors.green('Restart!'));
       p.on('exit', function () {
         p = start();
       });
+      plug.util.log(plug.util.colors.red('Restart!'));
       p.kill('SIGTERM');
     }, 500); // debounced
   });
 
   function start () {
-    var child = spawn( "npm", ["start"], { cwd: __dirname } );
+    var child = spawn( "node", ["server.js"], { cwd: __dirname } );
     child.stdout.setEncoding('utf8');
     child.stdout.on('data', function (data) {
       data.split('\n').forEach(function (line) {
@@ -252,4 +297,36 @@ gulp.task('develop', ['watch'], function() {
 
 });
 
+
+
+
+
+/*
+  build zip file for elements that have a bower.json
+  committing the zip file effectively enables re-use of the element
+  in another project by referencing the zip file
+
+  "some-element": "https://raw.githubusercontent.com/myorg/myapp/master/zips/some-element.zip"
+
+ */
+gulp.task('zip', function () {
+
+  var dir = 'app/elements';
+
+  return require('merge-stream')(
+
+    fs.readdirSync(dir)
+      .filter(function(one) {
+        return fs.existsSync(path.join(dir, one, 'bower.json'));
+      })
+      .map(function(one){
+        plug.util.log('zipping', one);
+        return gulp.src(path.join(dir, one) + '/**')
+          .pipe(plug.zip(one+'.zip'))
+          .pipe(gulp.dest('./zips'));
+      })
+
+  );
+
+});
 

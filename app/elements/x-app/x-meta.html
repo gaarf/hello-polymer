@@ -1,0 +1,132 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/iron-meta/iron-meta.html">
+
+<!--
+Wrapper for `<iron-meta>` !!! needs documentation badly
+-->
+<dom-module id="x-meta">
+  <style>
+    :host:not([read][content]) {
+      display: none;
+    }
+  </style>
+  <template>
+    <iron-meta id="meta" type="[[type]]"></iron-meta>
+    <content id="content"></content>
+  </template>
+</dom-module>
+
+<script>
+(function(){
+
+  var proxy = new Polymer.IronMeta();
+
+  Polymer({
+
+    is: 'x-meta',
+
+    properties: {
+      type: {
+        type: String,
+        value: function () {
+          return 'x-meta';
+        }
+      },
+
+      dataValue: {
+        type: Object,
+        notify: true,
+        observer: '_onValueChanged'
+      },
+
+      key: {
+        type: String
+      }
+    },
+
+    ready: function () {
+      this.$.meta.set('key', this.get('key'));
+
+      if(this.hasAttribute('read')) {
+        this.set('dataValue', this.query());
+
+        this._boundProxyListener = this._proxyListener.bind(this);
+        proxy.addEventListener('x-meta-write', this._boundProxyListener);
+      }
+      else { // this.hasAttribute('write') ...
+
+        if(this.hasAttribute('content')) {
+          this._boundValueToContent = this._setValueToContent.bind(this);
+          this.addEventListener('DOMSubtreeModified', this._boundValueToContent);
+        }
+      }
+
+    },
+
+    _setValueToContent: function () {
+      this.set('dataValue', Polymer.dom(this.$.content).getDistributedNodes());
+    },
+
+    _proxyListener: function(e) {
+      var s = e.detail; // writter x-meta
+      if((s.type === this.type) && (s.key === this.key)) {
+        this.debounce(this.key, function() {
+          var v = this.query();
+          this.notifyPath('dataValue', v);
+          this.fire('change', v);
+
+          if(this.hasAttribute('content')) {
+
+            // reflect content
+            while(this.$.meta.nextSibling) {
+              this.removeChild(this.$.meta.nextSibling);
+            }
+            for (var i = 0; i < v.length; i++) {
+              this.appendChild(v[i]);
+            };
+          }
+        });
+      }
+    },
+
+    detached: function () {
+      if(this._boundProxyListener) {
+        proxy.removeEventListener('x-meta-write', this._boundProxyListener);
+      }
+
+      if(this._boundValueToContent) {
+        this.removeEventListener('DOMSubtreeModified', this._boundValueToContent);
+      }
+    },
+
+    _onValueChanged: function (val) {
+      if(this.hasAttribute('write')) {
+        this.$.meta.set('value', val);
+        proxy.fire('x-meta-write', this);
+      }
+    },
+
+    query: function (key) {
+      return this.$.meta.byKey(key||this.get('key'));
+    },
+
+    queryAsText: function (key) {
+      var nodes = this.query(key);
+      return nodes && nodes.map(function (node) {
+        return node.textContent;
+      }).join('');
+    },
+
+    queryAsJSON: function (key) {
+      try {
+        return JSON.parse(this.queryAsText(key));
+      }
+      catch (e) {
+        console.error(e);
+      };
+    }
+
+  });
+
+})();
+</script>

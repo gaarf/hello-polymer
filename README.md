@@ -1,5 +1,5 @@
-Polymer Boilerplate
-===================
+Polymer Carousel
+================
 
 _It almost works._
 
@@ -27,4 +27,6 @@ or
 
 * `gulp develop` (autobuild, autorestart)
 
+### I made something useful
 
+* `gulp zip`

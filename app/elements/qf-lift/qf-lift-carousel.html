@@ -1,0 +1,60 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/paper-styles/paper-styles.html">
+<link rel="import" href="./qf-lift-card.html">
+
+<dom-module id="qf-lift-carousel">
+
+  <style>
+    :host {
+      display: block;
+    }
+
+    .carousel {
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      margin-left: 20px;
+    }
+
+    .carousel qf-lift-card {
+      margin-left: 20px;
+    }
+    .carousel qf-lift-card:first-child {
+      margin-left: 0;
+    }
+  </style>
+
+  <template>
+
+    <div class="layout horizontal">
+
+      <qf-lift-card class="flex-inline">
+        Target
+      </qf-lift-card>
+
+      <div class="flex carousel">
+        <template is="dom-repeat" items="[1,2,3,4]">
+          <qf-lift-card>
+            Card #<span>[[item]]</span>
+          </qf-lift-card>
+        </template>
+      </div>
+
+    </div>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'qf-lift-carousel',
+
+    properties: {
+    }
+
+  });
+
+</script>

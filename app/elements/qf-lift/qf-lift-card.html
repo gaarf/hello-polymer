@@ -1,0 +1,56 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/paper-styles/paper-styles.html">
+
+<link rel="import" href="/bower_components/flip-card/flip-card.html">
+
+<dom-module id="qf-lift-card">
+
+  <style>
+    :host {
+      display: inline-block;
+      background-color: var(--paper-grey-100);
+      padding: 20px;
+
+      height: 400px;
+      width: 200px;
+      overflow: hidden;
+    }
+
+    h3 {
+      @apply(--paper-font-title);
+      margin-top: 0;
+    }
+
+
+
+  </style>
+
+  <template>
+
+    <flip-card>
+      <front>
+        <h3><content></content></h3>
+      </front>
+      <back>
+        back
+      </back>
+
+    </flip-card>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'qf-lift-card',
+
+    flip: function () {
+      // this.$$('.flip-container').classList.toggle('flip');
+    }
+
+  });
+
+</script>
